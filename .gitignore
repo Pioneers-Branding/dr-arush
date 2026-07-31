@@ -1,0 +1,14 @@
+# cPanel account backups — contain mailboxes and .htpasswds, never commit
+cpanel-backups/
+
+# cPanel / PHP upgrader leftovers
+.htaccess.lock-*
+.htaccess.phpupgrader.*
+
+# Local tooling
+.claude/settings.local.json
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
